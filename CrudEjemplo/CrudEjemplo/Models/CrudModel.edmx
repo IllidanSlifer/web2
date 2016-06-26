@@ -31,7 +31,7 @@
           <Property Name="mobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="CRUDEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="CRUDEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="crud" EntityType="Self.crud" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="CRUDModelStoreContainer" CdmEntityContainer="CRUDEntities">
+        <EntityContainerMapping StorageEntityContainer="CRUDModelStoreContainer" CdmEntityContainer="CRUDEntities2">
           <EntitySetMapping Name="crud">
             <EntityTypeMapping TypeName="CRUDModel.crud">
               <MappingFragment StoreEntitySet="crud">

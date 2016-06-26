@@ -9,7 +9,7 @@
     <Property Name="mobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
-  <EntityContainer Name="CRUDEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="CRUDEntities2" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="crud" EntityType="Self.crud" />
   </EntityContainer>
 </Schema>

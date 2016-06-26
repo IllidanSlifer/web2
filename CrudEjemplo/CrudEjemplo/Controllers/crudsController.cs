@@ -12,7 +12,7 @@ namespace CrudEjemplo.Controllers
 {
     public class crudsController : Controller
     {
-        private CRUDEntities db = new CRUDEntities();
+        private CRUDEntities2 db = new CRUDEntities2();
 
         // GET: cruds
         public ActionResult Index()

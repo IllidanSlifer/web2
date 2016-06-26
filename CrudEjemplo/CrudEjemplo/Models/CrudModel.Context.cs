@@ -13,10 +13,10 @@ namespace CrudEjemplo.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CRUDEntities : DbContext
+    public partial class CRUDEntities2 : DbContext
     {
-        public CRUDEntities()
-            : base("name=CRUDEntities")
+        public CRUDEntities2()
+            : base("name=CRUDEntities2")
         {
         }
     
