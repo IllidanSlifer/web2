@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="quiz1Model1StoreContainer" CdmEntityContainer="quiz1Entities1">
+    <EntitySetMapping Name="Languajes">
+      <EntityTypeMapping TypeName="quiz1Model1.Languajes">
+        <MappingFragment StoreEntitySet="Languajes">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

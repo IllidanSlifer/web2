@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    var listItems = new string[] { "Hey there" };
+    var label = new string[] { "hola" };
+    var textArea = new string[] { "Kevin", "eres", "especial" };
+    var checkbox = new string[] { "GoT", "Lotr" };
+    var textbox = new string[] { "oscar", "eres", "crack" };
+}
+
+<div class="jumbotron">
+    <h1>Hey User</h1>
+    <p class="lead">Curriculum Vitae</p>
+</div>
+
+@Html.List(listItems)
+@Html.Label(label[0])
+@Html.TextArea(textArea[0])
+@Html.CheckBox(checkbox[0])
+@Html.TextBox(textbox[0])
